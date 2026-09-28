@@ -3,7 +3,7 @@ const fs = require('fs/promises');
 const path = require('path');
 
 const PORT = Number(process.env.PORT || 8775);
-const HOST = '127.0.0.1';
+const HOST = '0.0.0.0';
 const ROOT = __dirname;
 const CACHE_TTL = 5 * 60_000;
 const STALE_CACHE_TTL = 60 * 60_000;
