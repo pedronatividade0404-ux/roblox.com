@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/robuxcomprar.html" },
+    { "source": "/pt/robuxcomprar.html", "destination": "/robuxcomprar.html" }
+  ]
+}
